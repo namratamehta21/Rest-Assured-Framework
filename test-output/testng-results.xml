@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17670" started-at="2023-02-28T19:59:29 IST" finished-at="2023-02-28T19:59:47 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17670" started-at="2023-02-28T19:59:29 IST" finished-at="2023-02-28T19:59:47 IST">
+      <class name="com.mobile.modules.SelectModules">
+        <test-method status="PASS" signature="verifyMainSheet(java.util.Map)[pri:0, instance:com.mobile.modules.SelectModules@569cfc36]" name="verifyMainSheet" duration-ms="10518" started-at="2023-02-28T19:59:31 IST" data-provider="userData" finished-at="2023-02-28T19:59:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Method=GET, ModuleName=Balances, ExecuteTC=Yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainSheet -->
+        <test-method status="PASS" signature="verifyMainSheet(java.util.Map)[pri:0, instance:com.mobile.modules.SelectModules@569cfc36]" name="verifyMainSheet" duration-ms="1039" started-at="2023-02-28T19:59:41 IST" data-provider="userData" finished-at="2023-02-28T19:59:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Method=GET, ModuleName=BalanceByFund, ExecuteTC=Yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainSheet -->
+        <test-method status="PASS" signature="verifyMainSheet(java.util.Map)[pri:0, instance:com.mobile.modules.SelectModules@569cfc36]" name="verifyMainSheet" duration-ms="1058" started-at="2023-02-28T19:59:42 IST" data-provider="userData" finished-at="2023-02-28T19:59:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Method=GET, ModuleName=RateOfReturn, ExecuteTC=Yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainSheet -->
+        <test-method status="PASS" signature="verifyMainSheet(java.util.Map)[pri:0, instance:com.mobile.modules.SelectModules@569cfc36]" name="verifyMainSheet" duration-ms="829" started-at="2023-02-28T19:59:43 IST" data-provider="userData" finished-at="2023-02-28T19:59:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Method=GET, ModuleName=LoanOptions, ExecuteTC=Yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainSheet -->
+        <test-method status="PASS" signature="verifyMainSheet(java.util.Map)[pri:0, instance:com.mobile.modules.SelectModules@569cfc36]" name="verifyMainSheet" duration-ms="855" started-at="2023-02-28T19:59:44 IST" data-provider="userData" finished-at="2023-02-28T19:59:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Method=GET, ModuleName=Loans, ExecuteTC=Yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainSheet -->
+        <test-method status="PASS" signature="verifyMainSheet(java.util.Map)[pri:0, instance:com.mobile.modules.SelectModules@569cfc36]" name="verifyMainSheet" duration-ms="918" started-at="2023-02-28T19:59:45 IST" data-provider="userData" finished-at="2023-02-28T19:59:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Method=GET, ModuleName=GetContribution, ExecuteTC=Yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainSheet -->
+        <test-method status="PASS" signature="verifyMainSheet(java.util.Map)[pri:0, instance:com.mobile.modules.SelectModules@569cfc36]" name="verifyMainSheet" duration-ms="825" started-at="2023-02-28T19:59:46 IST" data-provider="userData" finished-at="2023-02-28T19:59:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Method=POST, ModuleName=Contribution, ExecuteTC=Yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainSheet -->
+      </class> <!-- com.mobile.modules.SelectModules -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
