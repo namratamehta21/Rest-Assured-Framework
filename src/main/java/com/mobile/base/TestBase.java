@@ -37,7 +37,7 @@ public class TestBase
 		
 		httpRequest.body(requestParams.toJSONString());
 		
-		Response response = httpRequest.request(Method.POST, "/rawebrestservice/mobile/login");
+		Response response = httpRequest.request(Method.POST, "/abc/mobile/login");
 		
 		String UserPrimaryId = response.jsonPath().get("UserPrimaryId");
 		String Token = response.jsonPath().get("Token");
@@ -53,7 +53,7 @@ public class TestBase
 		httpRequest1.header("x-pid", UserPrimaryId);
 		httpRequest1.header("x-did", DeviceId);
 			
-		Response response1 = httpRequest1.request(Method.GET, "rawebrestservice/Token");
+		Response response1 = httpRequest1.request(Method.GET, "abc/Token");
 			
 		int statusCode = response1.getStatusCode();
 		System.out.println("Status Code of Response is "+statusCode);
